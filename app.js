@@ -120,16 +120,15 @@ function showPosition(position) {
   sessionStorage.setItem('user-coordinates', JSON.stringify(userCoordinates));
   fetchUserWeatherInfo(userCoordinates);
 }
-<<<<<<< HEAD
-const grantAccessButton = document.querySelector('[data-grantAccess]');
-grantAccessButton.addEventListener('click', getLocation);
-
-=======
 
 const grantAccessButton = document.querySelector('[data-grantAccess]');
 grantAccessButton.addEventListener('click', getLocation);
 
->>>>>>> d9b1d1cb8dadfbe737313c1762e49b76e9ff77f1
+
+
+
+
+
 const searchInput = document.querySelector('[data-searchInput]');
 searchFrom.addEventListener('submit', (e) => {
   e.preventDefault();
